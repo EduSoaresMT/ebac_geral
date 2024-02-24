@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+    
+}
+
+body {
+    background-image: url('./images/gym.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#slide{
+display: flex;
+justify-content: center;
+margin-top: 15%;
+font-weight: bolder;
+}
+
+#slide button {
+    padding: 10px 10px;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,0.8);
+    border: none;
+    cursor: pointer;
+    color: white;  
+}
+
+form {
+   
+    padding: 24px 0;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    color: white;
+    
+}
+
+form button, input {
+    padding: 8px;
+    margin: 10px 5px;
+    justify-content: center;
+}
+
+button {
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.8);
+    border-radius: 50px;
+}
+
+ul{
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-bottom: 50px;
+    overflow-y: hidden;
+    
+}
+
+ul li {
+    overflow-y: hidden;
+    color: white;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+
+
+.concluido:hover {
+    cursor:pointer
+}
